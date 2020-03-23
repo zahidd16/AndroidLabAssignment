@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".Main2Activity"
+    android:background="@color/colorG"
+    >
+
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Lab Courses "
+    android:textColor="@color/colorPrimary"
+    android:textSize="30dp" />
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Course No."
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_column="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Course Title"
+        android:layout_column="2"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorPrimary"
+        android:text="Credit Hour"
+        android:layout_column="3"
+        android:textSize="20dp"/>
+
+
+</TableRow>
+
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CSE2200      "
+        android:textColor="@color/colors"
+        android:textSize="20dp"
+        android:layout_column="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colors"
+        android:text="SD LAB III"
+        android:layout_column="2"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colors"
+        android:text="0.75"
+        android:layout_column="3"
+        android:textSize="20dp"/>
+
+
+</TableRow>
+
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CSE2202  "
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:layout_column="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colors"
+        android:text="Numerical Lab  "
+        android:layout_column="2"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colors"
+        android:text="0.75"
+        android:layout_column="3"
+        android:textSize="20dp"/>
+
+</TableRow>
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CSE2208   "
+        android:textColor="@color/colors"
+        android:textSize="20dp"
+        android:layout_column="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colors"
+        android:text="Algorithms Lab"
+        android:layout_column="2"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colors"
+        android:text="1.5"
+        android:layout_column="3"
+        android:textSize="20dp"/>
+</TableRow>
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CSE2210  "
+        android:textColor="@color/colors"
+        android:textSize="20dp"
+        android:layout_column="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colors"
+        android:text="DEPT Lab"
+        android:layout_column="2"
+        android:textSize="20dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colors"
+        android:text="0.75"
+        android:layout_column="3"
+        android:textSize="20dp"/>
+
+</TableRow>
+<TableRow
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CSE2214"
+        android:textColor="@color/colors"
+        android:textSize="20dp"
+        android:layout_column="1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colors"
+        android:text="Assembly PL Lab"
+        android:layout_column="2"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colors"
+        android:text="1.5"
+        android:layout_column="3"
+        android:textSize="20dp"/>
+
+
+</TableRow>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+         >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Finish"
+            android:layout_centerInParent="true"
+            android:id="@+id/f"
+            android:onClick="p"
+    />
+
+
+
+
+        </RelativeLayout>
+
+</TableLayout>
+
